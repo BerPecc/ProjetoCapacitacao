@@ -1,18 +1,11 @@
-#include <Arduino.h>
+#include "../include/Hardware/tb6612fng.hpp"
 
-// put function declarations here:
-int myFunction(int, int);
+//Ponte_h m1(pi_pwm ...), m2(pino pwm ...);
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  
 }
